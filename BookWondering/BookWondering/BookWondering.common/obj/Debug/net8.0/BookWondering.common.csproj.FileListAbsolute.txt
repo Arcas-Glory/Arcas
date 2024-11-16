@@ -1,0 +1,12 @@
+E:\code\BookWondering\BookWondering\BookWondering.common\bin\Debug\net8.0\BookWondering.common.deps.json
+E:\code\BookWondering\BookWondering\BookWondering.common\bin\Debug\net8.0\BookWondering.common.dll
+E:\code\BookWondering\BookWondering\BookWondering.common\bin\Debug\net8.0\BookWondering.common.pdb
+E:\code\BookWondering\BookWondering\BookWondering.common\obj\Debug\net8.0\BookWondering.common.csproj.AssemblyReference.cache
+E:\code\BookWondering\BookWondering\BookWondering.common\obj\Debug\net8.0\BookWondering.common.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\BookWondering\BookWondering\BookWondering.common\obj\Debug\net8.0\BookWondering.common.AssemblyInfoInputs.cache
+E:\code\BookWondering\BookWondering\BookWondering.common\obj\Debug\net8.0\BookWondering.common.AssemblyInfo.cs
+E:\code\BookWondering\BookWondering\BookWondering.common\obj\Debug\net8.0\BookWondering.common.csproj.CoreCompileInputs.cache
+E:\code\BookWondering\BookWondering\BookWondering.common\obj\Debug\net8.0\BookWondering.common.dll
+E:\code\BookWondering\BookWondering\BookWondering.common\obj\Debug\net8.0\refint\BookWondering.common.dll
+E:\code\BookWondering\BookWondering\BookWondering.common\obj\Debug\net8.0\BookWondering.common.pdb
+E:\code\BookWondering\BookWondering\BookWondering.common\obj\Debug\net8.0\ref\BookWondering.common.dll

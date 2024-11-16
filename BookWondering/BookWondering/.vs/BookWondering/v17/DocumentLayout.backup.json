@@ -1,0 +1,152 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\code\\BookWondering\\BookWondering\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18D868ED-7E87-4E67-9343-22E28636B9B4}|BookWondering\\BookWondering.csproj|e:\\code\\bookwondering\\bookwondering\\bookwondering\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18D868ED-7E87-4E67-9343-22E28636B9B4}|BookWondering\\BookWondering.csproj|solutionrelative:bookwondering\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18D868ED-7E87-4E67-9343-22E28636B9B4}|BookWondering\\BookWondering.csproj|e:\\code\\bookwondering\\bookwondering\\bookwondering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18D868ED-7E87-4E67-9343-22E28636B9B4}|BookWondering\\BookWondering.csproj|solutionrelative:bookwondering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E57B2C0-98C7-48A9-8D6A-540874864DE3}|BookWondering.Model\\BookWondering.Model.csproj|e:\\code\\bookwondering\\bookwondering\\bookwondering.model\\entitys\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E57B2C0-98C7-48A9-8D6A-540874864DE3}|BookWondering.Model\\BookWondering.Model.csproj|solutionrelative:bookwondering.model\\entitys\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56D65153-9F9B-466D-9AE4-8AE79758091F}|BookWondering.Service\\BookWondering.Service.csproj|e:\\code\\bookwondering\\bookwondering\\bookwondering.service\\\u6682\u5B58\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56D65153-9F9B-466D-9AE4-8AE79758091F}|BookWondering.Service\\BookWondering.Service.csproj|solutionrelative:bookwondering.service\\\u6682\u5B58\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56D65153-9F9B-466D-9AE4-8AE79758091F}|BookWondering.Service\\BookWondering.Service.csproj|e:\\code\\bookwondering\\bookwondering\\bookwondering.service\\bookwondering.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{56D65153-9F9B-466D-9AE4-8AE79758091F}|BookWondering.Service\\BookWondering.Service.csproj|solutionrelative:bookwondering.service\\bookwondering.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18D868ED-7E87-4E67-9343-22E28636B9B4}|BookWondering\\BookWondering.csproj|e:\\code\\bookwondering\\bookwondering\\bookwondering\\controllers\\logcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18D868ED-7E87-4E67-9343-22E28636B9B4}|BookWondering\\BookWondering.csproj|solutionrelative:bookwondering\\controllers\\logcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49A689E-F386-41D0-A770-A6F8C23F8DE6}|BookWondering.common\\BookWondering.common.csproj|e:\\code\\bookwondering\\bookwondering\\bookwondering.common\\memoryhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49A689E-F386-41D0-A770-A6F8C23F8DE6}|BookWondering.common\\BookWondering.common.csproj|solutionrelative:bookwondering.common\\memoryhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18D868ED-7E87-4E67-9343-22E28636B9B4}|BookWondering\\BookWondering.csproj|e:\\code\\bookwondering\\bookwondering\\bookwondering\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18D868ED-7E87-4E67-9343-22E28636B9B4}|BookWondering\\BookWondering.csproj|solutionrelative:bookwondering\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "E:\\code\\BookWondering\\BookWondering\\BookWondering\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "BookWondering\\WeatherForecast.cs",
+              "ToolTip": "E:\\code\\BookWondering\\BookWondering\\BookWondering\\WeatherForecast.cs",
+              "RelativeToolTip": "BookWondering\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T01:37:01.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\code\\BookWondering\\BookWondering\\BookWondering\\Program.cs",
+              "RelativeDocumentMoniker": "BookWondering\\Program.cs",
+              "ToolTip": "E:\\code\\BookWondering\\BookWondering\\BookWondering\\Program.cs",
+              "RelativeToolTip": "BookWondering\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T01:28:01.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Users.cs",
+              "DocumentMoniker": "E:\\code\\BookWondering\\BookWondering\\BookWondering.Model\\Entitys\\Users.cs",
+              "RelativeDocumentMoniker": "BookWondering.Model\\Entitys\\Users.cs",
+              "ToolTip": "E:\\code\\BookWondering\\BookWondering\\BookWondering.Model\\Entitys\\Users.cs",
+              "RelativeToolTip": "BookWondering.Model\\Entitys\\Users.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAMwA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:54:55.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\code\\BookWondering\\BookWondering\\BookWondering.Service\\\u6682\u5B58\\Program.cs",
+              "RelativeDocumentMoniker": "BookWondering.Service\\\u6682\u5B58\\Program.cs",
+              "ToolTip": "E:\\code\\BookWondering\\BookWondering\\BookWondering.Service\\\u6682\u5B58\\Program.cs",
+              "RelativeToolTip": "BookWondering.Service\\\u6682\u5B58\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:54:48.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookWondering.Service.csproj",
+              "DocumentMoniker": "E:\\code\\BookWondering\\BookWondering\\BookWondering.Service\\BookWondering.Service.csproj",
+              "RelativeDocumentMoniker": "BookWondering.Service\\BookWondering.Service.csproj",
+              "ToolTip": "E:\\code\\BookWondering\\BookWondering\\BookWondering.Service\\BookWondering.Service.csproj",
+              "RelativeToolTip": "BookWondering.Service\\BookWondering.Service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-12T13:40:54.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\code\\BookWondering\\BookWondering\\BookWondering\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "BookWondering\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\code\\BookWondering\\BookWondering\\BookWondering\\Controllers\\UserController.cs",
+              "RelativeToolTip": "BookWondering\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:26:54.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MemoryHelper.cs",
+              "DocumentMoniker": "E:\\code\\BookWondering\\BookWondering\\BookWondering.common\\MemoryHelper.cs",
+              "RelativeDocumentMoniker": "BookWondering.common\\MemoryHelper.cs",
+              "ToolTip": "E:\\code\\BookWondering\\BookWondering\\BookWondering.common\\MemoryHelper.cs",
+              "RelativeToolTip": "BookWondering.common\\MemoryHelper.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:18:17.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LogController.cs",
+              "DocumentMoniker": "E:\\code\\BookWondering\\BookWondering\\BookWondering\\Controllers\\LogController.cs",
+              "RelativeDocumentMoniker": "BookWondering\\Controllers\\LogController.cs",
+              "ToolTip": "E:\\code\\BookWondering\\BookWondering\\BookWondering\\Controllers\\LogController.cs",
+              "RelativeToolTip": "BookWondering\\Controllers\\LogController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T12:35:21.067Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

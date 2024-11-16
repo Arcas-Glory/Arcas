@@ -1,0 +1,6 @@
+@BookWondering.Model_HostAddress = http://localhost:5105
+
+GET {{BookWondering.Model_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
