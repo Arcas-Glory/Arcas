@@ -2,6 +2,7 @@
   <el-tabs v-model="activeName" class="demo-tabs" @tab-click="handleClick">
     <el-tab-pane label="Login" name="Login">Login</el-tab-pane>
     <el-tab-pane label="Register" name="Register">Register</el-tab-pane>
+    <el-tab-pane label="BookDisplay" name="BookDisplay">BookDisplay</el-tab-pane>
   </el-tabs>
 </template>
 
@@ -25,6 +26,8 @@ const handleClick = (tab: TabsPaneContext, event: Event) => {
     case 'Register':
       router.push('/register')
       break
+    case 'BookDisplay':
+      router.push('/bookdisplay')
     default:
       break
   }

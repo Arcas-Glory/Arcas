@@ -1,0 +1,12 @@
+E:\code\BookWonderingReBuild\BookWonderingReBuild.Common\bin\Debug\net8.0\BookWonderingReBuild.Common.deps.json
+E:\code\BookWonderingReBuild\BookWonderingReBuild.Common\bin\Debug\net8.0\BookWonderingReBuild.Common.dll
+E:\code\BookWonderingReBuild\BookWonderingReBuild.Common\bin\Debug\net8.0\BookWonderingReBuild.Common.pdb
+E:\code\BookWonderingReBuild\BookWonderingReBuild.Common\obj\Debug\net8.0\BookWonderingReBuild.Common.csproj.AssemblyReference.cache
+E:\code\BookWonderingReBuild\BookWonderingReBuild.Common\obj\Debug\net8.0\BookWonderingReBuild.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\BookWonderingReBuild\BookWonderingReBuild.Common\obj\Debug\net8.0\BookWonderingReBuild.Common.AssemblyInfoInputs.cache
+E:\code\BookWonderingReBuild\BookWonderingReBuild.Common\obj\Debug\net8.0\BookWonderingReBuild.Common.AssemblyInfo.cs
+E:\code\BookWonderingReBuild\BookWonderingReBuild.Common\obj\Debug\net8.0\BookWonderingReBuild.Common.csproj.CoreCompileInputs.cache
+E:\code\BookWonderingReBuild\BookWonderingReBuild.Common\obj\Debug\net8.0\BookWonderingReBuild.Common.dll
+E:\code\BookWonderingReBuild\BookWonderingReBuild.Common\obj\Debug\net8.0\refint\BookWonderingReBuild.Common.dll
+E:\code\BookWonderingReBuild\BookWonderingReBuild.Common\obj\Debug\net8.0\BookWonderingReBuild.Common.pdb
+E:\code\BookWonderingReBuild\BookWonderingReBuild.Common\obj\Debug\net8.0\ref\BookWonderingReBuild.Common.dll

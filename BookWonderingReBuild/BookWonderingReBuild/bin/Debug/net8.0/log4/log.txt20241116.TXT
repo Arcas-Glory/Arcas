@@ -1,0 +1,218 @@
+2024-11-16 11:12:35,895 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5209
+2024-11-16 11:12:35,942 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-11-16 11:12:35,944 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-11-16 11:12:35,946 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\code\BookWonderingReBuild\BookWonderingReBuild
+2024-11-16 11:21:23,751 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5209
+2024-11-16 11:21:23,797 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-11-16 11:21:23,799 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-11-16 11:21:23,810 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\code\BookWonderingReBuild\BookWonderingReBuild
+2024-11-16 11:25:47,410 [7] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (中文提示 : SSL出错，因为升级了驱动,字符串增加Encrypt=True;TrustServerCertificate=True;即可。详细错误：已成功与服务器建立连接，但是在登录过程中发生错误。 (provider: SSL 提供程序, error: 0 - 证书链是由不受信任的颁发机构颁发的。)
+English Message : 已成功与服务器建立连接，但是在登录过程中发生错误。 (provider: SSL 提供程序, error: 0 - 证书链是由不受信任的颁发机构颁发的。))
+ ---> SqlSugar.SqlSugarException: 中文提示 : SSL出错，因为升级了驱动,字符串增加Encrypt=True;TrustServerCertificate=True;即可。详细错误：已成功与服务器建立连接，但是在登录过程中发生错误。 (provider: SSL 提供程序, error: 0 - 证书链是由不受信任的颁发机构颁发的。)
+English Message : 已成功与服务器建立连接，但是在登录过程中发生错误。 (provider: SSL 提供程序, error: 0 - 证书链是由不受信任的颁发机构颁发的。)
+   at SqlSugar.Check.ExceptionEasy(Boolean isException, String enMessage, String cnMessage)
+   at SqlSugar.AdoProvider.CheckConnection()
+   at SqlSugar.SqlServerProvider.GetCommand(String sql, SugarParameter[] parameters)
+   at SqlSugar.AdoProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+   at SqlSugar.QueryableProvider`1.GetDataAsync[TResult](KeyValuePair`2 sqlObj)
+   at SqlSugar.QueryableProvider`1._ToListAsync[TResult]()
+   at SqlSugar.QueryableProvider`1.FirstAsync()
+   at SqlSugar.QueryableProvider`1.FirstAsync(Expression`1 expression)
+   at BookWonderingReBuild.Service.User.UserService.CheckLogin(LoginDto login) in E:\code\BookWonderingReBuild\BookWonderingReBuild.Service\User\UserService.cs:line 21
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at BookWonderingReBuild.Controllers.LogController.CheckLogin(String qq, String pwd, String validateKey, String validateCode) in E:\code\BookWonderingReBuild\BookWonderingReBuild\Controllers\LogController.cs:line 44
+   at lambda_method4(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-16 11:27:45,489 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5209
+2024-11-16 11:27:45,531 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-11-16 11:27:45,533 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-11-16 11:27:45,535 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\code\BookWonderingReBuild\BookWonderingReBuild
+2024-11-16 11:33:02,605 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5209
+2024-11-16 11:33:02,648 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-11-16 11:33:02,651 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-11-16 11:33:02,652 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\code\BookWonderingReBuild\BookWonderingReBuild
+2024-11-16 11:39:25,270 [16] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (中文提示 : SSL出错，因为升级了驱动,字符串增加Encrypt=True;TrustServerCertificate=True;即可。详细错误：已成功与服务器建立连接，但是在登录过程中发生错误。 (provider: SSL 提供程序, error: 0 - 证书链是由不受信任的颁发机构颁发的。)
+English Message : 已成功与服务器建立连接，但是在登录过程中发生错误。 (provider: SSL 提供程序, error: 0 - 证书链是由不受信任的颁发机构颁发的。))
+ ---> SqlSugar.SqlSugarException: 中文提示 : SSL出错，因为升级了驱动,字符串增加Encrypt=True;TrustServerCertificate=True;即可。详细错误：已成功与服务器建立连接，但是在登录过程中发生错误。 (provider: SSL 提供程序, error: 0 - 证书链是由不受信任的颁发机构颁发的。)
+English Message : 已成功与服务器建立连接，但是在登录过程中发生错误。 (provider: SSL 提供程序, error: 0 - 证书链是由不受信任的颁发机构颁发的。)
+   at SqlSugar.Check.ExceptionEasy(Boolean isException, String enMessage, String cnMessage)
+   at SqlSugar.AdoProvider.CheckConnection()
+   at SqlSugar.SqlServerProvider.GetCommand(String sql, SugarParameter[] parameters)
+   at SqlSugar.AdoProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+   at SqlSugar.QueryableProvider`1.GetDataAsync[TResult](KeyValuePair`2 sqlObj)
+   at SqlSugar.QueryableProvider`1._ToListAsync[TResult]()
+   at SqlSugar.QueryableProvider`1.FirstAsync()
+   at SqlSugar.QueryableProvider`1.FirstAsync(Expression`1 expression)
+   at BookWonderingReBuild.Service.User.UserService.CheckLogin(LoginDto login) in E:\code\BookWonderingReBuild\BookWonderingReBuild.Service\User\UserService.cs:line 21
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at BookWonderingReBuild.Controllers.LogController.CheckLogin(String qq, String pwd, String validateKey, String validateCode) in E:\code\BookWonderingReBuild\BookWonderingReBuild\Controllers\LogController.cs:line 44
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-16 11:43:40,903 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5209
+2024-11-16 11:43:40,955 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-11-16 11:43:40,961 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-11-16 11:43:40,965 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\code\BookWonderingReBuild\BookWonderingReBuild
+2024-11-16 11:44:53,911 [7] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：无法打开登录所请求的数据库 "BookWonderingDB"。登录失败。
+用户 'NanLin' 登录失败。DbType="SqlServer";ConfigId="".
+English Message : Connection open error . 无法打开登录所请求的数据库 "BookWonderingDB"。登录失败。
+用户 'NanLin' 登录失败。DbType="SqlServer";ConfigId="" )
+ ---> SqlSugar.SqlSugarException: 中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：无法打开登录所请求的数据库 "BookWonderingDB"。登录失败。
+用户 'NanLin' 登录失败。DbType="SqlServer";ConfigId="".
+English Message : Connection open error . 无法打开登录所请求的数据库 "BookWonderingDB"。登录失败。
+用户 'NanLin' 登录失败。DbType="SqlServer";ConfigId="" 
+   at SqlSugar.Check.Exception(Boolean isException, String message, String[] args)
+   at SqlSugar.AdoProvider.CheckConnection()
+   at SqlSugar.SqlServerProvider.GetCommand(String sql, SugarParameter[] parameters)
+   at SqlSugar.AdoProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+   at SqlSugar.QueryableProvider`1.GetDataAsync[TResult](KeyValuePair`2 sqlObj)
+   at SqlSugar.QueryableProvider`1._ToListAsync[TResult]()
+   at SqlSugar.QueryableProvider`1.FirstAsync()
+   at SqlSugar.QueryableProvider`1.FirstAsync(Expression`1 expression)
+   at BookWonderingReBuild.Service.User.UserService.CheckLogin(LoginDto login) in E:\code\BookWonderingReBuild\BookWonderingReBuild.Service\User\UserService.cs:line 21
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at BookWonderingReBuild.Controllers.LogController.CheckLogin(String qq, String pwd, String validateKey, String validateCode) in E:\code\BookWonderingReBuild\BookWonderingReBuild\Controllers\LogController.cs:line 44
+   at lambda_method4(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-16 11:45:48,924 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5209
+2024-11-16 11:45:48,969 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-11-16 11:45:48,971 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-11-16 11:45:48,973 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\code\BookWonderingReBuild\BookWonderingReBuild
+2024-11-16 11:51:16,148 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5209
+2024-11-16 11:51:16,199 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-11-16 11:51:16,201 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-11-16 11:51:16,203 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\code\BookWonderingReBuild\BookWonderingReBuild
+2024-11-16 14:37:09,295 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5209
+2024-11-16 14:37:09,339 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-11-16 14:37:09,342 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-11-16 14:37:09,343 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\code\BookWonderingReBuild\BookWonderingReBuild
+2024-11-16 14:39:32,498 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5209
+2024-11-16 14:39:32,543 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-11-16 14:39:32,546 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-11-16 14:39:32,548 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\code\BookWonderingReBuild\BookWonderingReBuild
+2024-11-16 14:43:22,044 [5] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__0(JwtBearerOptions options) in E:\code\BookWonderingReBuild\BookWonderingReBuild\Program.cs:line 29
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-16 14:43:22,555 [15] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__0(JwtBearerOptions options) in E:\code\BookWonderingReBuild\BookWonderingReBuild\Program.cs:line 29
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-16 14:48:49,330 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5209
+2024-11-16 14:48:49,383 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-11-16 14:48:49,385 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-11-16 14:48:49,386 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\code\BookWonderingReBuild\BookWonderingReBuild
+2024-11-16 14:51:38,796 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5209
+2024-11-16 14:51:38,837 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-11-16 14:51:38,840 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-11-16 14:51:38,841 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\code\BookWonderingReBuild\BookWonderingReBuild
+2024-11-16 14:58:38,921 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5209
+2024-11-16 14:58:38,966 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-11-16 14:58:38,969 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-11-16 14:58:38,970 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\code\BookWonderingReBuild\BookWonderingReBuild
+2024-11-16 15:00:24,256 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5209
+2024-11-16 15:00:24,312 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-11-16 15:00:24,315 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-11-16 15:00:24,317 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\code\BookWonderingReBuild\BookWonderingReBuild
+2024-11-16 15:01:26,650 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5209
+2024-11-16 15:01:26,690 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-11-16 15:01:26,692 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-11-16 15:01:26,693 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\code\BookWonderingReBuild\BookWonderingReBuild
+2024-11-16 15:55:36,792 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5209
+2024-11-16 15:55:36,837 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-11-16 15:55:36,840 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-11-16 15:55:36,841 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\code\BookWonderingReBuild\BookWonderingReBuild
+2024-11-16 16:31:55,096 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5209
+2024-11-16 16:31:55,157 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-11-16 16:31:55,165 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-11-16 16:31:55,167 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\code\BookWonderingReBuild\BookWonderingReBuild
+2024-11-16 16:38:31,945 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5209
+2024-11-16 16:38:31,996 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-11-16 16:38:31,998 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-11-16 16:38:32,000 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\code\BookWonderingReBuild\BookWonderingReBuild
