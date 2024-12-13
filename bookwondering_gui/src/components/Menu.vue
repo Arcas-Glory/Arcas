@@ -1,37 +1,52 @@
 <template>
-  <el-tabs v-model="activeName" class="demo-tabs" @tab-click="handleClick">
-    <el-tab-pane label="Login" name="Login">Login</el-tab-pane>
-    <el-tab-pane label="Register" name="Register">Register</el-tab-pane>
-    <el-tab-pane label="BookDisplay" name="BookDisplay">BookDisplay</el-tab-pane>
-  </el-tabs>
+  <div style="display: flex; align-items: right; gap: 10px;">
+    <el-button type="primary" @click="handleLogin">登录/退出登录</el-button>
+    <el-button type="success" @click="handleRegister">注册</el-button>
+    <!-- <el-button type="success" @click="goToUpLoad">上传图书</el-button> -->
+    <el-button type="success" @click="ReTurn">返回</el-button>
+    <FloatingWindow v-if="!isLoginOrRegisterPage" />
+  </div>
 </template>
 
 <script lang="ts" setup>
-import { ref } from 'vue'
-import type { TabsPaneContext } from 'element-plus'
+import { ref,watch } from 'vue'
 import {useRouter} from 'vue-router'
+import FloatingWindow from './FloatingWindow.vue';
 
 const router = useRouter()
-const activeName = ref('Login')
+const isLogin = ref(false); // 用于跟踪是否登录
+const isLoginOrRegisterPage = ref(false);// 用于跟踪是否处于登录或者注册界面
 
-const handleClick = (tab: TabsPaneContext, event: Event) => {
-  console.log(tab.paneName)
-  switch (tab.paneName) {
-    case 'Menu':
-      router.push('/')
-      break
-    case 'Login':
-      router.push('/login')
-      break
-    case 'Register':
-      router.push('/register')
-      break
-    case 'BookDisplay':
-      router.push('/bookdisplay')
-    default:
-      break
+watch(router.currentRoute, (to) => { //路由监听确保上传按钮的可见性
+  if (to.name === 'Login' || to.name === 'Register') {
+    isLoginOrRegisterPage.value = true;
+  } else {
+    isLoginOrRegisterPage.value = false;
   }
+});
+
+const ReTurn = () => {
+  router.push({name:'BookDisplay'})
 }
+
+const handleLogin = () => {
+  if (isLogin.value) {
+    alert('已登录，点击退出登录');
+    router.push('/'); // 退出登录后跳转到首页
+    isLogin.value = false; // 更新登录状态
+  } else {
+    router.push({name:'Login'}); // 跳转到登录页面
+  }
+};
+
+const handleRegister = () => {
+  router.push({name:'Register'}); // 跳转到注册页面
+};
+
+const goToUpLoad = () => {
+  router.push({name:'UpLoadBook'});
+}
+
 </script>
 
 <style>

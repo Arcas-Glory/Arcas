@@ -2,7 +2,6 @@
   <div style="display: flex; justify-content: center; padding-top: 50px;">
     <el-form
     ref="ruleFormRef"
-    style="max-width: auto"
     :model="ruleForm"
     status-icon
     :rules="rules"

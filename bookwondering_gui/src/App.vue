@@ -1,13 +1,26 @@
 <template>
+
   <div id="app">
-    <Menu />
-    <router-view></router-view>
+    <div class="common-layout">
+      <el-container>
+        <el-header>
+          <el-row type="flex" justify="end">
+            <el-col :span="10">
+              <Menu />
+            </el-col>
+          </el-row>
+        </el-header>
+        <br />
+        <el-main><router-view></router-view></el-main>
+      </el-container>
+    </div>
   </div>
 </template>
 
 <script>
 import Menu from './components/Menu.vue'
 import ImgDisplay from './components/ImageDisplay.vue'
+
 
 export default {
   name: 'App',

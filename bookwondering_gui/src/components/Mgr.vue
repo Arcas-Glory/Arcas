@@ -1,8 +1,7 @@
 <template>
   <el-carousel :interval="4000" type="card" height="200px">
     <el-carousel-item v-for="(image,index) in images" :key="index">
-        <img :src=image :alt=image>
-        <h1>{{ image }}</h1>
+        <img :src="image">
     </el-carousel-item>
   </el-carousel>
 </template>
@@ -23,6 +22,12 @@
 .el-carousel__item:nth-child(2n + 1) {
   background-color: #d3dce6;
 }
+
+.el-carousel__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 </style>
 
 <script lang="js" setup>
@@ -35,8 +40,4 @@
         }
     });
 
-
-    // for(let i = 0; i < props.images.length; i++) {
-    //     console.log(props.images[i])
-    // }
 </script>
