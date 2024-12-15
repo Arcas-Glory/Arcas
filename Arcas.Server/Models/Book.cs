@@ -7,8 +7,20 @@ namespace sqlTest.Server.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int id { get; set; }
-        public int ISBN { get; set; }
-        public int userId { get; set; }
+        public int Id { get; set; }
+        [Required]
+        public string ISBN { get; set; }
+        [Required]
+        public string OwnerId { get; set; }
+        [Required]
+        [MaxLength(100)]
+        public string Title {  get; set; }
+
+
+        [MaxLength(1000)] 
+        public string Description {  get; set; }
+        //navi attribute
+        [ForeignKey("OwnerId")]
+        public User Owner { get; set; }
     }
 }

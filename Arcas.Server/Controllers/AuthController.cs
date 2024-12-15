@@ -37,16 +37,45 @@ namespace sqlTest.Server.Controllers
             return Ok("注册成功");
         }
 
-        [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] User user)
+//        [HttpPost("login")]
+//        public async Task<IActionResult> Login([FromBody] User user)
+//        {
+//            if (string.IsNullOrWhiteSpace(user.username) || string.IsNullOrWhiteSpace(user.password))
+//            {
+//                return BadRequest("用户名和密码不能为空");
+//            }
+
+//            var u = await _context.Users.FirstOrDefaultAsync(u => u.username == user.username);
+////            bool userExists = await _context.Users.AnyAsync(u => u.username == user.username && u.password == user.password);
+//            if (u == null || u.password != user.password)
+//            {
+//                return BadRequest("用户名或密码错误");
+//            }
+
+//            var token = TokenGenerate.Get(32);
+
+//            u.token = token;
+//            await _context.SaveChangesAsync();
+
+//            return Ok(new {token});
+//        }
+
+
+        public class LoginRequest
         {
+            public User user { get; set; }
+        }
+
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody] LoginRequest request)
+        {
+            var user = request.user;
             if (string.IsNullOrWhiteSpace(user.username) || string.IsNullOrWhiteSpace(user.password))
             {
                 return BadRequest("用户名和密码不能为空");
             }
 
             var u = await _context.Users.FirstOrDefaultAsync(u => u.username == user.username);
-//            bool userExists = await _context.Users.AnyAsync(u => u.username == user.username && u.password == user.password);
             if (u == null || u.password != user.password)
             {
                 return BadRequest("用户名或密码错误");
@@ -57,7 +86,8 @@ namespace sqlTest.Server.Controllers
             u.token = token;
             await _context.SaveChangesAsync();
 
-            return Ok(new {token});
+            return Ok(new { token });
         }
+
     }
 }

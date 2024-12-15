@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace sqlTest.Server.Models
 {
-    public class Artical
+    public class Article
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

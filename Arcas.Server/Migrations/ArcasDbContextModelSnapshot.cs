@@ -21,7 +21,7 @@ namespace sqlTest.Server.Migrations
 
             MySqlModelBuilderExtensions.AutoIncrementColumns(modelBuilder);
 
-            modelBuilder.Entity("sqlTest.Server.Models.Artical", b =>
+            modelBuilder.Entity("sqlTest.Server.Models.Article", b =>
                 {
                     b.Property<int>("id")
                         .ValueGeneratedOnAdd()
@@ -59,10 +59,17 @@ namespace sqlTest.Server.Migrations
                     b.Property<int>("ISBN")
                         .HasColumnType("int");
 
-                    b.Property<int>("userId")
+                    b.Property<string>("description")
+                        .IsRequired()
+                        .HasMaxLength(1000)
+                        .HasColumnType("varchar(1000)");
+
+                    b.Property<int>("ownerId")
                         .HasColumnType("int");
 
                     b.HasKey("id");
+
+                    b.HasIndex("ownerId");
 
                     b.ToTable("Books");
                 });
@@ -98,6 +105,22 @@ namespace sqlTest.Server.Migrations
                     b.HasKey("id");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("sqlTest.Server.Models.Book", b =>
+                {
+                    b.HasOne("sqlTest.Server.Models.User", "Owner")
+                        .WithMany("books")
+                        .HasForeignKey("ownerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Owner");
+                });
+
+            modelBuilder.Entity("sqlTest.Server.Models.User", b =>
+                {
+                    b.Navigation("books");
                 });
 #pragma warning restore 612, 618
         }
