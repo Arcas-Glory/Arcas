@@ -2748,23 +2748,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\王刚\\.nuget\\packages\\": {},
+    "C:\\Users\\86195\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\web\\sqlTest\\sqlTest.Server\\sqlTest.Server.csproj",
-      "projectName": "sqlTest.Server",
-      "projectPath": "D:\\Project\\web\\sqlTest\\sqlTest.Server\\sqlTest.Server.csproj",
-      "packagesPath": "C:\\Users\\王刚\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\web\\sqlTest\\sqlTest.Server\\obj\\",
+      "projectUniqueName": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\Arcas.Server.csproj",
+      "projectName": "Arcas.Server",
+      "projectPath": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\Arcas.Server.csproj",
+      "packagesPath": "C:\\Users\\86195\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\王刚\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\86195\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2773,7 +2773,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2791,7 +2790,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -2845,7 +2845,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,381 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|c:\\users\\86195\\source\\repos\\arcas\\arcas.server\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|solutionrelative:controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|c:\\users\\86195\\source\\repos\\arcas\\arcas.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|c:\\users\\86195\\source\\repos\\arcas\\arcas.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|c:\\users\\86195\\source\\repos\\arcas\\arcas.server\\models\\concretebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|solutionrelative:models\\concretebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|c:\\users\\86195\\source\\repos\\arcas\\arcas.server\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|solutionrelative:models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|c:\\users\\86195\\source\\repos\\arcas\\arcas.server\\migrations\\20241220105728_attributenullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|solutionrelative:migrations\\20241220105728_attributenullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|c:\\users\\86195\\source\\repos\\arcas\\arcas.server\\data\\arcasdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|solutionrelative:data\\arcasdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|c:\\users\\86195\\source\\repos\\arcas\\arcas.server\\dtos\\bookapplyrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|solutionrelative:dtos\\bookapplyrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|c:\\users\\86195\\source\\repos\\arcas\\arcas.server\\models\\exchangedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|solutionrelative:models\\exchangedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|c:\\users\\86195\\source\\repos\\arcas\\arcas.server\\models\\abstractbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|solutionrelative:models\\abstractbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|c:\\users\\86195\\source\\repos\\arcas\\arcas.server\\dtos\\returnbookrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|solutionrelative:dtos\\returnbookrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|c:\\users\\86195\\source\\repos\\arcas\\arcas.server\\dtos\\returnbookresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|solutionrelative:dtos\\returnbookresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|c:\\users\\86195\\source\\repos\\arcas\\arcas.server\\dtos\\emailgetresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|solutionrelative:dtos\\emailgetresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|c:\\users\\86195\\source\\repos\\arcas\\arcas.server\\migrations\\20241220084911_dtlnullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|solutionrelative:migrations\\20241220084911_dtlnullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|c:\\users\\86195\\source\\repos\\arcas\\arcas.server\\migrations\\20241220084629_dtlnullok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|solutionrelative:migrations\\20241220084629_dtlnullok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|c:\\users\\86195\\source\\repos\\arcas\\arcas.server\\dtos\\bookapplyresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|solutionrelative:dtos\\bookapplyresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|c:\\users\\86195\\source\\repos\\arcas\\arcas.server\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|c:\\users\\86195\\source\\repos\\arcas\\arcas.server\\dtos\\authregisterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|solutionrelative:dtos\\authregisterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|c:\\users\\86195\\source\\repos\\arcas\\arcas.server\\dtos\\authloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|solutionrelative:dtos\\authloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|c:\\users\\86195\\source\\repos\\arcas\\arcas.server\\dtos\\authloginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|solutionrelative:dtos\\authloginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|c:\\users\\86195\\source\\repos\\arcas\\arcas.server\\helpers\\tokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|solutionrelative:helpers\\tokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|c:\\users\\86195\\source\\repos\\arcas\\arcas.server\\helpers\\quickqueryhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0099701A-0A19-480F-A366-938F6FB1C84D}|Arcas.Server.csproj|solutionrelative:helpers\\quickqueryhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-20T12:45:45.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAuwEgAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T02:15:23.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20241220105728_AttributeNullable.cs",
+              "DocumentMoniker": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\Migrations\\20241220105728_AttributeNullable.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241220105728_AttributeNullable.cs",
+              "ToolTip": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\Migrations\\20241220105728_AttributeNullable.cs",
+              "RelativeToolTip": "Migrations\\20241220105728_AttributeNullable.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T10:57:32.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AbstractBook.cs",
+              "DocumentMoniker": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\Models\\AbstractBook.cs",
+              "RelativeDocumentMoniker": "Models\\AbstractBook.cs",
+              "ToolTip": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\Models\\AbstractBook.cs",
+              "RelativeToolTip": "Models\\AbstractBook.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T06:55:27.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailController.cs",
+              "DocumentMoniker": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\Controllers\\EmailController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmailController.cs",
+              "ToolTip": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\Controllers\\EmailController.cs",
+              "RelativeToolTip": "Controllers\\EmailController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwCUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T05:01:38.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\Models\\Comment.cs",
+              "RelativeToolTip": "Models\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T07:07:23.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConcreteBook.cs",
+              "DocumentMoniker": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\Models\\ConcreteBook.cs",
+              "RelativeDocumentMoniker": "Models\\ConcreteBook.cs",
+              "ToolTip": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\Models\\ConcreteBook.cs",
+              "RelativeToolTip": "Models\\ConcreteBook.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:24:20.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ArcasDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\Data\\ArcasDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ArcasDbContext.cs",
+              "ToolTip": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\Data\\ArcasDbContext.cs",
+              "RelativeToolTip": "Data\\ArcasDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T02:17:59.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookApplyRequest.cs",
+              "DocumentMoniker": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\DTOs\\BookApplyRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\BookApplyRequest.cs",
+              "ToolTip": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\DTOs\\BookApplyRequest.cs",
+              "RelativeToolTip": "DTOs\\BookApplyRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:11:26.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ExchangeDetail.cs",
+              "DocumentMoniker": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\Models\\ExchangeDetail.cs",
+              "RelativeDocumentMoniker": "Models\\ExchangeDetail.cs",
+              "ToolTip": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\Models\\ExchangeDetail.cs",
+              "RelativeToolTip": "Models\\ExchangeDetail.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAA4wBsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T06:51:18.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReturnBookRequest.cs",
+              "DocumentMoniker": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\DTOs\\ReturnBookRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\ReturnBookRequest.cs",
+              "ToolTip": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\DTOs\\ReturnBookRequest.cs",
+              "RelativeToolTip": "DTOs\\ReturnBookRequest.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T09:03:41.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReturnBookResponse.cs",
+              "DocumentMoniker": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\DTOs\\ReturnBookResponse.cs",
+              "RelativeDocumentMoniker": "DTOs\\ReturnBookResponse.cs",
+              "ToolTip": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\DTOs\\ReturnBookResponse.cs",
+              "RelativeToolTip": "DTOs\\ReturnBookResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T09:06:54.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20241220084629_dtlNullOk.cs",
+              "DocumentMoniker": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\Migrations\\20241220084629_dtlNullOk.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241220084629_dtlNullOk.cs",
+              "ToolTip": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\Migrations\\20241220084629_dtlNullOk.cs",
+              "RelativeToolTip": "Migrations\\20241220084629_dtlNullOk.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:48:32.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20241220084911_dtlnullable.cs",
+              "DocumentMoniker": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\Migrations\\20241220084911_dtlnullable.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241220084911_dtlnullable.cs",
+              "ToolTip": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\Migrations\\20241220084911_dtlnullable.cs",
+              "RelativeToolTip": "Migrations\\20241220084911_dtlnullable.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAAwJcAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:49:33.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmailGetResponse.cs",
+              "DocumentMoniker": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\DTOs\\EmailGetResponse.cs",
+              "RelativeDocumentMoniker": "DTOs\\EmailGetResponse.cs",
+              "ToolTip": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\DTOs\\EmailGetResponse.cs",
+              "RelativeToolTip": "DTOs\\EmailGetResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T07:32:05.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAUwBcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:16:24.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BookApplyResponse.cs",
+              "DocumentMoniker": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\DTOs\\BookApplyResponse.cs",
+              "RelativeDocumentMoniker": "DTOs\\BookApplyResponse.cs",
+              "ToolTip": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\DTOs\\BookApplyResponse.cs",
+              "RelativeToolTip": "DTOs\\BookApplyResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:12:23.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthRegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\DTOs\\AuthRegisterRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\AuthRegisterRequest.cs",
+              "ToolTip": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\DTOs\\AuthRegisterRequest.cs",
+              "RelativeToolTip": "DTOs\\AuthRegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:16:27.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AuthLoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\DTOs\\AuthLoginRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\AuthLoginRequest.cs",
+              "ToolTip": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\DTOs\\AuthLoginRequest.cs",
+              "RelativeToolTip": "DTOs\\AuthLoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T07:31:37.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthLoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\DTOs\\AuthLoginResponse.cs",
+              "RelativeDocumentMoniker": "DTOs\\AuthLoginResponse.cs",
+              "ToolTip": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\DTOs\\AuthLoginResponse.cs",
+              "RelativeToolTip": "DTOs\\AuthLoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T07:31:40.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "QuickQueryHelper.cs",
+              "DocumentMoniker": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\Helpers\\QuickQueryHelper.cs",
+              "RelativeDocumentMoniker": "Helpers\\QuickQueryHelper.cs",
+              "ToolTip": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\Helpers\\QuickQueryHelper.cs",
+              "RelativeToolTip": "Helpers\\QuickQueryHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T02:55:13.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TokenHelper.cs",
+              "DocumentMoniker": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\Helpers\\TokenHelper.cs",
+              "RelativeDocumentMoniker": "Helpers\\TokenHelper.cs",
+              "ToolTip": "C:\\Users\\86195\\source\\repos\\Arcas\\Arcas.Server\\Helpers\\TokenHelper.cs",
+              "RelativeToolTip": "Helpers\\TokenHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:22:01.932Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

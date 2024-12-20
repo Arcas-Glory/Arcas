@@ -1,23 +1,12 @@
 {
   "Version": 1,
-  "Hash": "gGa0saCGD0AmMgpJv6g3NFMIsF1nu3Wa8R7LGUY0Smk=",
-  "Source": "sqlTest.Server",
-  "BasePath": "_content/sqlTest.Server",
+  "Hash": "gPYt4J25B+LKWr/IpgK6Mcpk6nMSWv4K/Lu1pHvsZ1Y=",
+  "Source": "Arcas.Server",
+  "BasePath": "_content/Arcas.Server",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [
-    {
-      "Identity": "D:\\Project\\web\\sqlTest\\sqltest.client\\sqltest.client.esproj",
-      "Version": 2,
-      "Source": "sqltest.client",
-      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
-      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
-    }
-  ],
+  "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }
