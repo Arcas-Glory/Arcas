@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Arcas.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d5312dab20f73e39d69da4cae0298a2693abfc5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18910e5c60b4c144b0156253db7b2e94c7ab4339")]
 [assembly: System.Reflection.AssemblyProductAttribute("Arcas.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Arcas.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
