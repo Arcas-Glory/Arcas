@@ -1,5 +1,5 @@
 <template>
-  <el-descriptions title="Width horizontal list" border>
+  <el-descriptions title="书籍详情" border>
     <el-descriptions-item
       :rowspan="2"
       :width="140"
@@ -8,7 +8,7 @@
     >
       <el-image
         style="width: 100px; height: 100px"
-        src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png"
+        :src="book.image"
       />
     </el-descriptions-item>
     <el-descriptions-item label="书名">{{ book.name }}</el-descriptions-item>
@@ -25,31 +25,33 @@
     </el-descriptions-item>
   </el-descriptions>
   <div class="button">
-    <el-button color="#626aef">发起借阅</el-button>
-    <el-button color="#626aef">结束借阅</el-button>
+    <el-button color="#626aef" @click="goToBorrowPage">发起借阅</el-button>
   </div>
 </template>
   
 <script lang="ts" setup>
 import { defineProps, onMounted,ref } from 'vue';
-import { useRoute } from 'vue-router';
+import { useRoute,useRouter } from 'vue-router';
 
-const props = defineProps({
-  book: {
-    type: Object,
-    default: () => ({}),
-  },
-});
+const book = ref({}) //响应式对象，用于接收后端发送过来图书数据
 
 const route = useRoute();
+const router = useRouter();
 const bookId = route.params.id;
 
 onMounted(async () => {
-  // 假设有一个方法来根据ID获取书籍详情
+  // 一个方法来根据ID获取书籍详情
   console.log(bookId)
   // const bookDetails = await getBookDetailsById(bookId);
   // props.book = bookDetails;
+  //将获取到的数据放入book对象中存放
 });
+
+const goToBorrowPage = () => {
+  router.push({ name: 'BookBorrowPage', params: { id: bookId } });
+  
+  //转到借阅图书界面的路由
+}
 
 </script>
   

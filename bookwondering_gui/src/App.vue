@@ -39,4 +39,9 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+.el-main {
+  border: 1px solid #dcdfe6; /* 灰色边框 */
+  padding: 20px; /* 内边距 */
+  margin-top: 20px; /* 外边距 */
+}
 </style>

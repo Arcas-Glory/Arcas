@@ -5,6 +5,12 @@ import Register from '../components/PageComponents/Register.vue'
 import BookDisplay from '../components/PageComponents/BookDisplay.vue'
 import BookDetails from '../components/PageComponents/BookDetails.vue'
 import BookUpLoad from '../components/BookUpLoad.vue'
+import BookBorrowPage from '../components/PageComponents/BookBorrowPage.vue'
+import UserDetails from '../components/PageComponents/UserDetails.vue'
+import EmailBox from '../components/PageComponents/EmailBox.vue'
+import EmailReply from '../components/PageComponents/EmailReply.vue'
+import EmailDetail from '../components/PageComponents/EmailDetail.vue'
+import BookReturnPage from '../components/PageComponents/BookReturnPage.vue'
 
 const routes = [
   {
@@ -34,10 +40,42 @@ const routes = [
     props: true,
   },
   {
+    path:'/bookborrowpage/:id',
+    name:'BookBorrowPage',
+    component: BookBorrowPage,
+    props: true,
+  },
+  {
     path: '/bookupload',
     name: 'BookUpLoad',
     component: BookUpLoad
-  }
+  },
+  {
+    path: '/userdetails',
+    name: 'UserDetails',
+    component: UserDetails
+  },
+  {
+    path: '/emailbox',
+    name: 'EmailBox',
+    component: EmailBox
+  },
+  {
+    path: '/emailreply',
+    name: 'EmailReply',
+    component: EmailReply
+  },
+  {
+    path: '/emaidetail',
+    name: 'EmailDetail',
+    component: EmailDetail
+  },
+  {
+    path: '/bookreturnPage/:id',
+    name: 'BookReturnPage',
+    component: BookReturnPage,
+    props: true,
+  },
 ];
 
 const router = createRouter({

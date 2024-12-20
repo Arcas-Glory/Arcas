@@ -1,8 +1,9 @@
 <template>
   <div style="display: flex; align-items: right; gap: 10px;">
-    <el-button type="primary" @click="handleLogin">登录/退出登录</el-button>
+    <HeadPortrait @click="goToUser" />
+    <el-button type="primary" @click="goToEmail">信箱</el-button>
+    <el-button type="primary" @click="handleLogin">登录</el-button>
     <el-button type="success" @click="handleRegister">注册</el-button>
-    <!-- <el-button type="success" @click="goToUpLoad">上传图书</el-button> -->
     <el-button type="success" @click="ReTurn">返回</el-button>
     <FloatingWindow v-if="!isLoginOrRegisterPage" />
   </div>
@@ -12,6 +13,7 @@
 import { ref,watch } from 'vue'
 import {useRouter} from 'vue-router'
 import FloatingWindow from './FloatingWindow.vue';
+import HeadPortrait from './HeadPortrait.vue';
 
 const router = useRouter()
 const isLogin = ref(false); // 用于跟踪是否登录
@@ -45,6 +47,16 @@ const handleRegister = () => {
 
 const goToUpLoad = () => {
   router.push({name:'UpLoadBook'});
+}
+
+const goToEmail = () => {
+  //转向邮箱的路由
+  router.push({name:'EmailBox'})
+}
+
+const goToUser = () => {
+  //转向用户的路由
+  router.push({name:'UserDetails'});
 }
 
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <el-upload action="#" list-type="picture-card" :auto-upload="false" :file-List="fileList" @change="handleFileChange" >
+  <el-upload action="#" list-type="picture-card" :auto-upload="false" :file-list="fileList" @change="handleFileChange" >
     <el-icon><Plus /></el-icon>
 
     <template #file="{ file }">
@@ -14,7 +14,7 @@
           </span>
           <span
             v-if="!disabled"
-            class="el-upload-list__item-delete"
+            class="el-upload-list__item-download"
             @click="handleDownload(file)"
           >
             <el-icon><Download /></el-icon>
@@ -54,6 +54,8 @@ const handleRemove = (file: UploadFile) => {
   if (index !== -1) {
     fileList.value.splice(index, 1)
   }
+  //强制刷新响应式数据
+  fileList.value = [...fileList.value]
   console.log(fileList)
   // console.log(file)
   // console.log(file.url)

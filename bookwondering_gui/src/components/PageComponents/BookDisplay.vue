@@ -3,7 +3,6 @@
   <br>
   <Selector />
   <br>
-  <el-text>{{ shareData.item }}</el-text>
   <el-row class="center-row" :gutter="15" v-for="(imageGroup, index) in imageGroups" :key="index">
     <el-col  :span="4" v-for="image in imageGroup" :key="image.id">
       <Card @click.native="goToDetails(image)" :image="image" />
@@ -32,11 +31,11 @@
           '../src/assets/images/03.png'
         ]
   const BookImages = [{src:'../src/assets/images/bookImages/魔法少女.jpg',name:'魔法少女',id:'1234',catagory:'现实'},
-                      {src:'../src/assets/images/bookImages/恋花梦.jpg',name:'恋花梦',id:'1234',catagory:'浪漫'},
-                      {src:'../src/assets/images/bookImages/情缘就要虐.jpg',name:'情缘就要虐',id:'1234',catagory:'历史'},
-                      {src:'../src/assets/images/bookImages/时崎狂三的狂乱之舞.jpg',name:'时崎狂三的狂乱之舞',id:'1234',catagory:'奇幻'},
-                      {src:'../src/assets/images/bookImages/妖怪许愿店.jpg',name:'妖怪许愿店',id:'1234',catagory:'悬疑'},
-                      {src:'../src/assets/images/bookImages/一袖揽风华.jpg',name:'一袖揽风华',id:'1234',catagory:'现实'}]
+                      {src:'../src/assets/images/bookImages/恋花梦.jpg',name:'恋花梦',id:'1235',catagory:'浪漫'},
+                      {src:'../src/assets/images/bookImages/情缘就要虐.jpg',name:'情缘就要虐',id:'1236',catagory:'历史'},
+                      {src:'../src/assets/images/bookImages/时崎狂三的狂乱之舞.jpg',name:'时崎狂三的狂乱之舞',id:'1237',catagory:'奇幻'},
+                      {src:'../src/assets/images/bookImages/妖怪许愿店.jpg',name:'妖怪许愿店',id:'1238',catagory:'悬疑'},
+                      {src:'../src/assets/images/bookImages/一袖揽风华.jpg',name:'一袖揽风华',id:'1239',catagory:'现实'}]
 
   const filteredImageGroups = ref([]);
   const imageGroups = ref([]);
@@ -53,8 +52,8 @@
   // 根据类别筛选图片
   function getFilteredImages(category) {
     let temp = BookImages.filter((image) => image.catagory === category);
-    console.log('筛选后的图书：')
-    console.log(temp)
+    // console.log('筛选后的图书：')
+    // console.log(temp)
     return temp
   }
 
@@ -70,8 +69,8 @@
       acc[groupIndex].push(image)
       return acc
     }, [])
-    console.log('得到的图书数组为：')
-    console.log(imageGroups.value)
+    // console.log('得到的图书数组为：')
+    // console.log(imageGroups.value)
   }, { immediate: true });
 </script>
   
