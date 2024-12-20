@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using sqlTest.Server.Data;
+using Arcas.Server.Data;
 using System;
 
 var builder = WebApplication.CreateBuilder(args);

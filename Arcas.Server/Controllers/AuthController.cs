@@ -1,63 +1,103 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using sqlTest.Server.Data;
-using sqlTest.Server.Models;
-using sqlTest.Server.Helpers;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Arcas.Server.Data;
+using Arcas.Server.Models;
+using Arcas.Server.DTOs;   // 包含LoginRequest和LoginResponse
+using Arcas.Server.Helpers;
 
-namespace sqlTest.Server.Controllers
+namespace YourNamespace.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class AuthController : ControllerBase
     {
         private readonly ArcasDbContext _context;
+
         public AuthController(ArcasDbContext context)
         {
             _context = context;
         }
 
-        [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody] User user)
+        /// <summary>
+        /// 用户登录接口
+        /// POST /api/auth/login
+        /// 前端输入: username, password, nickname
+        /// 后端输出: vertify, token, nickname, userID
+        /// </summary>
+        [HttpPost("login")]
+        public async Task<ActionResult<AuthLoginRequest>> Login([FromBody] AuthLoginRequest request)
         {
-            if(string.IsNullOrWhiteSpace(user.username) || string.IsNullOrWhiteSpace(user.password))
+            // 根据username和password去数据库查询用户
+            var user = await _context.User
+                .FirstOrDefaultAsync(u => u.username == request.username && u.password == request.password);
+
+            if (user == null)
             {
-                return BadRequest("用户名和密码不能为空");
+                // 用户名或密码不正确
+                return BadRequest(new AuthLoginResponse
+                {
+                    vertify = "fail",
+                    token = null,
+                    nickname = null,
+                    userID = 0
+                });
             }
 
-            bool userExists = await _context.Users.AnyAsync(u => u.username == user.username);
-            if(userExists)
+            // 用户存在且密码匹配，生成token（简单示例，用Guid代替，实际请使用JWT或其他安全方式）
+            string token = TokenHelper.Get(30);
+            TokenHelper.Write(_context, QuickQueryHelper.GetUserID(_context,request.username), token);
+
+            // 返回结果
+            var response = new AuthLoginResponse
             {
-                return BadRequest("该用户名已经被占用");
-            }
+                vertify = "ok",
+                token = token,
+                nickname = user.nickname,
+                userID = user.userID
+            };
 
-            _context.Users.Add(user);
-            await _context.SaveChangesAsync();
-
-            return Ok("注册成功");
+            return Ok(response);
         }
 
-        [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] User user)
+
+        /// <summary>
+        /// 用户注册接口
+        /// POST /api/auth/register
+        /// 前端输入： username, password, nickname
+        /// 后端输出： vertify (success 或 fail)
+        /// </summary>
+        [HttpPost("register")]
+        public async Task<ActionResult<AuthRegisterResponse>> Register([FromBody] AuthRegisterRequest request)
         {
-            if (string.IsNullOrWhiteSpace(user.username) || string.IsNullOrWhiteSpace(user.password))
+            // 检查用户名是否已存在
+            var existUser = await _context.User.FirstOrDefaultAsync(u => u.username == request.username);
+            if (existUser != null)
             {
-                return BadRequest("用户名和密码不能为空");
+                // 用户名已存在，返回失败
+                return BadRequest(new AuthRegisterResponse
+                {
+                    vertify = "fail"
+                });
             }
 
-            var u = await _context.Users.FirstOrDefaultAsync(u => u.username == user.username);
-//            bool userExists = await _context.Users.AnyAsync(u => u.username == user.username && u.password == user.password);
-            if (u == null || u.password != user.password)
+            // 如果用户名不存在，则创建新用户
+            var newUser = new User
             {
-                return BadRequest("用户名或密码错误");
-            }
+                username = request.username,
+                password = request.password,
+                nickname = request.nickname,
+                telephone = "",
+                token = ""
+            };
 
-            var token = TokenGenerate.Get(32);
-
-            u.token = token;
+            _context.User.Add(newUser);
             await _context.SaveChangesAsync();
 
-            return Ok(new {token});
+            // 注册成功
+            return Ok(new AuthRegisterResponse
+            {
+                vertify = "success"
+            });
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yvh9FTvD+GY=",
+  "dgSpecHash": "NvOi5JUH+dM=",
   "success": true,
-  "projectFilePath": "D:\\Project\\web\\sqlTest\\sqlTest.Server\\sqlTest.Server.csproj",
+  "projectFilePath": "D:\\Project\\web\\Arcas\\Arcas.Server\\Arcas.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\王刚\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\王刚\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.11\\microsoft.aspnetcore.spaproxy.8.0.11.nupkg.sha512",
