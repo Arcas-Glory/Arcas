@@ -190,7 +190,76 @@ namespace Arcas.Server.Controllers
         }
 
        
-        
+  //    API: 回复漂流图书申请 
+//    HTTP 请求方法: POST
+//    请求路径: /api/email/reply
+//    前端输入：
+//    o token: (char(30)) 用户身份验证的 Token，用于验证用户身份
+//    o userID: (int) 用户 ID，发起回复的用户唯一标识
+//    o exchangeID: (int) 交换记录 ID，表示需要回复的借书请求
+//    o detailsB: (string) 回复内容
+//                - 如果同意借书请求，那么需要回复支付运费的途径
+//                - 如果不同意，则回复内容可以自由发挥，例如拒绝理由
+//    o isAgree: (bool) 是否同意借书请求
+//                - true: 同意申请
+//                - false: 拒绝申请
+//    后端输出：
+//    o vertify: (string) 验证结果，表示是否成功回复申请
+//               - "成功回复申请": 回复成功
+//               - 其他: 回复失败（例如权限验证失败或交换记录不存在）
+[HttpPost("reply")]
+public async Task<IActionResult> ReplyToExchangeRequest([FromBody] ReplyExchangeRequest request)
+{
+    // 1. 验证输入参数是否有效
+    if (request == null || string.IsNullOrEmpty(request.token) || request.userID <= 0 || request.exchangeID <= 0)
+    {
+        return BadRequest(new { vertify = "输入参数无效" });
+    }
+
+    // 2. 验证 token 和 userID
+    var isValidUser = ValidateUser(request.token, request.userID);
+    if (!isValidUser)
+    {
+        return Unauthorized(new { vertify = "无效的 token 或 userID" });
+    }
+
+    // 3. 检查 exchangeID 是否存在
+    var exchange = await _context.ExchangeDetail.FirstOrDefaultAsync(e => e.exchangeID == request.exchangeID);
+    if (exchange == null)
+    {
+        return NotFound(new { vertify = "交换请求不存在" });
+    }
+
+    // 4. 验证用户是否有权限回复
+    if (exchange.idb != request.userID)
+    {
+        return Forbid(new { vertify = "用户无权限回复该申请" });
+    }
+
+    // 5. 根据 isAgree 更新申请状态和回复内容
+    if (request.isAgree)
+    {
+        // 同意申请，更新 detailsB 和 isApproved
+        exchange.isApproved = true;
+        exchange.detailsB = request.detailsB; // 回复支付路径或其他同意内容
+    }
+    else
+    {
+        // 拒绝申请，更新 detailsB
+        exchange.isApproved = false;
+        exchange.detailsB = request.detailsB; // 回复拒绝的理由
+    }
+
+    // 6. 保存修改到数据库
+    _context.ExchangeDetail.Update(exchange);
+    await _context.SaveChangesAsync();
+
+    // 7. 返回操作结果
+    return Ok(new { vertify = "成功回复申请" });
+}
+
+
+
 
     }
 }
