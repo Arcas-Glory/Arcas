@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:5173",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "D:\\Project\\web\\sqlTest\\sqlTest.Server\\..\\sqltest.client",
+"WorkingDirectory": "E:\\Arcas\\Arcas\\Arcas.Server\\..\\Arcas.Client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

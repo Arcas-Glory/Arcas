@@ -1,16 +1,19 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using sqlTest.Server.Models;
+using Arcas.Server.Models;
 
-namespace sqlTest.Server.Data
+namespace Arcas.Server.Data
 {
     public class ArcasDbContext : DbContext
     {
-        public DbSet<Artical> Articals {get; set;}
-        public DbSet<Book> Books { get; set; }
-        public DbSet<User> Users { get; set; }
-        public ArcasDbContext(DbContextOptions<ArcasDbContext> options) : base(options)
-        {
-        }
+        public DbSet<Comment> Comment { get; set; }
+        public DbSet<User> User { get; set; }
+        public DbSet<ExchangeDetail> ExchangeDetail { get; set; }
+        public DbSet<AbstractBook> AbstractBook { get; set; }
+        public DbSet<ConcreteBook> ConcreteBook { get; set; }
+
+        public ArcasDbContext(DbContextOptions<ArcasDbContext> options)
+            : base(options)
+        { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
