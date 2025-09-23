@@ -2,5 +2,5 @@
 书籍交换/漂流系统系统
 
 bookwondering文件夹中放的是基于.net8开发的后端程序
-bookwondering——gui文件夹中放的是基于vue3和ElementPlus开发的前端程序
+bookwondering_gui文件夹中放的是基于vue3和ElementPlus开发的前端程序
 
